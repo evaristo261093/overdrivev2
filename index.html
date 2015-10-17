@@ -13,28 +13,32 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target="#navbar" data-offset="0">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
 <header id="header" role="banner">
   <div class="container">
     <nav id="navbar" class="navbar navbar-default">
       <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-    <a href="#" class="logo"><img src="img/Overdrive.png" alt="logo" class="logo"></a>
+        <a href="#" class="logo">
+            <img src="img/Overdrive.png" alt="logo" class="logo">
+        </a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+          <li class="active">
+            <a href="#main-slider">
+                <i class="icon-home"></i>
+            </a>
+          </li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#pricing">Pricing</a></li>
@@ -49,13 +53,15 @@
 <section id="main-slider" class="carousel">
   <div class="carousel-inner">
     <div class="item active">
-      <div class="carousel-cuntent">
-        <h1>home o inicio</h1>
-        <p class="lead">
-          basado en la idea de un template
-        </p>
-      </div>
-    </div>
+        <div class="container">
+            <div class="carousel-cuntent">
+                <h1>home o inicio</h1>
+                <p class="lead">
+                    basado en la idea de un template
+                </p>
+            </div>
+        </div>
+    </div><!--termina el item-->
 
   <div class="item">
     <div class="container">
@@ -67,137 +73,79 @@
       </div>
     </div>
   </div>
+</div><!-- termina el slider-->
+<a href="#main-slider" class="prev" data-slide="prev">
+    <i class="icon-angle-left"></i>
+</a>
+<a href="#main-slider" class="next" data-slide="next">
+    <i class="icon-angle-left"></i>
+</a>
+</section>
+
+<section id="servicios">
+    <div class="container">
+        <div class="primerCaja">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="centro">
+                        <i class="icon-apple icon-md icon-color1"></i>
+                        <h4>iOS Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facilis quod assumenda, esse! Accusantium nulla corporis asperiores a maxime labore fuga, adipisci, iste aspernatur at magni voluptas libero. Obcaecati, inventore.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="centro">
+                        <i class="icon-apple icon-md icon-color1"></i>
+                        <h4>iOS Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facilis quod assumenda, esse! Accusantium nulla corporis asperiores a maxime labore fuga, adipisci, iste aspernatur at magni voluptas libero. Obcaecati, inventore.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="centro">
+                        <i class="icon-apple icon-md icon-color1"></i>
+                        <h4>iOS Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facilis quod assumenda, esse! Accusantium nulla corporis asperiores a maxime labore fuga, adipisci, iste aspernatur at magni voluptas libero. Obcaecati, inventore.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="centro">
+                        <i class="icon-apple icon-md icon-color1"></i>
+                        <h4>iOS Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facilis quod assumenda, esse! Accusantium nulla corporis asperiores a maxime labore fuga, adipisci, iste aspernatur at magni voluptas libero. Obcaecati, inventore.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 
- 
-<!--div class="container">
-<header>
-  <nav class="navbar">
-    <div class="navbar-header">
-      <button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target="#menu">
-        <span class="glyphicon glyphicon-align-justify"></span>
-      </button>
-      <a href="#" class="logo"><img src="img/Overdrive.png" alt="logo" class="logo"></a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Enlases</a></li>
-        <li><a href="#">Enlases</a></li>
-        <li><a href="#">Enlases</a></li>
-      </ul>
-    </div>
-
-  </nav>
-</header>
-
-    <div class="carousel slide" id="mySlide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#mySilde" data-slide-to="0" class="active"></li>
-        <li data-target="#mySilde" data-slide-to="1"></li>
-        <li data-target="#mySilde" data-slide-to="2"></li>
-      </ol>  
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/1.jpg" alt="">
+<section id="portafolio">
+    <div class="container">
+        <div class="box">
+            <div class="center gap">
+                <h2>portafolio</h2>
+                <p class="leap">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto perspiciatis cupiditate, rem rerum. Illo laborum quibusdam, ipsa id, veniam labore possimus quasi iusto ratione autem voluptatem aut, eius nobis omnis.
+                </p>
+            </div>
         </div>
-        <div class="item">
-          <img src="img/2.jpg" alt="">
-        </div>
-        <div class="item">
-          <img src="img/3.jpg" alt="">
-        </div>
-      </div>  
     </div>
-  
-  <section>
-    <article class="hacking">
-      <p class="titulo">Hacking</p>
-      <p class="info">
-        Nos enfocamos en realizar auditorias de manera remota como fisicas dependiendo de la zona. Hacemos un analisis completo de tu entorno asi como tu sistema. De esta forma mejorando la seguridad de tu espacio.
-      </p>
-    </article>
+</section>
 
-    <article class="Desarrollo">
-      <p class="titulo">Desarrollo Web</p>
-      <p class="info"> Necesitas un sitio para tu empresa o negocio, nosotros nos encargamos de realizarlo, ve al area de Paquetes ahi encontraras nuestros precios.</p>
-    </article>
-
-    <article class="miembro">
-      <p class="titulo">Miembros</p>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Yahmed Carias</div>
-        <div class="area">Hacker Etico, programador y analista de sistemas. </div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Mario Perez</div>
-        <div class="area">Programador y desarrolador web.</div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Alberto Perez</div>
-        <div class="area">Hacker Etico, programador y analista de sistemas.</div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Miguel Evaristo</div>
-        <div class="area">Diseñador y desarrolador web.</div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Daniel Romano</div>
-        <div class="area">Diseñador y Analista de ventas</div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Julio Gomez</div>
-        <div class="area">Programador y desarrolador web.</div>
-      </div>
-
-      <div class="persona">
-        <img src="" alt="foto">
-        <div class="nombre">Jorge Arriaga</div>
-        <div class="area">Hacker Etico, programador y analista de sistemas</div>
-      </div>
-    </article>
-  </section>
-
-  <section>
-    <div class="titulo">Planes</div>
-    <div class="plan">
-      <div class="titulo">Auditoria a tu Sitio Web</div>
-      <div class="descripcion">Consiste principalmente en dar una pauta acerca de los servicios que tu sitio esta ofreciendo exponiendome de esta forma algunos casos de inseguridad.</div>
-      <div class="precio">$</div>
-    </div>
-    <div class="plan">
-      <div class="titulo">Desarrollo de sitio Web</div>
-      <div class="descripcion">Diseño Propio Maquetado general Si se desea algo especifico el precio es a tratar Desarrollo del sitio en 1 Mes o menos depenediendo de los requerimientos.</div>
-    </div>
-    <div class="precio">$</div>
-    <div class="plan">
-      <div class="titulo">Auditoria y Desarrollo web</div>
-      <div class="descripcion"> Fusiona ambos paquetes para asegurarte que tu sitio esta seguro de cualquier amenaza.</div>
-    </div>
-    <div class="precio">$</div>
-  </section>
-  <button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Star
-</button>
-</div-->
- <!-- /container -->        <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-    </body>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
